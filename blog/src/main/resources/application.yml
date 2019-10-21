@@ -1,0 +1,10 @@
+server:
+  port: 8888
+
+spring:
+  cache:
+    cache-names: yuque
+    redis:
+      cache-null-values: true
+#  mvc:
+#    static-path-pattern: /static/**
